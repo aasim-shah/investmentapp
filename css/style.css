@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(6, 39, 131);
+    
+}
+.bg-custom{
+    background-color: rgb(6 39 131);
+}
+.main_container{
+    background-color: rgb(18 52 255 / 50%) !important;
+    min-height: 50vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    justify-content: center;
+    animation: getstarted 1s;
+    align-items: flex-end;
+    padding-bottom: 20%;
+    scroll-behavior: smooth;
+}
+@keyframes getstarted {
+    0%   {padding-bottom: 1%;}
+    100% {padding-bottom: 20%;}
+ }
+.sec_main_container{
+    display: flex;
+    flex-direction: row;
+}
+.analytics_container{
+    background-color: rgb(18 52 255 / 70%) !important;
+    height: 300px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.icon{
+    background-color: rgb(0 0 0 / 77%);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon_number{
+    font-size: 44px;
+}
+.icon_text{
+    font-size: 30px;
+    color: white;
+
+}
+.plans_container{
+    background-color: rgb(18 52 255 / 70%) !important;
+    height: 450px;
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+     border-radius: 9px;
+     font-family: 'Montserrat', sans-serif;
+}
+.badgee{
+    position: relative;
+    text-align: center;
+    background-color: wheat;
+}
+.badgee_inner {
+    background-color: yellow;
+    position: absolute;
+    top: -15px;   
+    font-weight: 700;
+    font-size: 21px;
+    left: 18%;
+    padding: 4px 33px;
+    color: black;
+    border-radius: 1px 40px 2px 41px;
+    
+}
+.pName{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 35px;
+    color: white;
+}
+.pAmount{
+    font-size: 38px;
+    font-weight: 500;
+}
+.pDays{
+    font-size: 14px;
+    color: burlywood;
+}
+.pText{
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgb(191, 203, 204);
+}
+.btn:hover{
+    color: black !important;
+    background-color: yellowgreen;
+    font-size: 18px;
+    font-weight: 700;
+}
+.form_container{
+margin-top: 18%;
+border-radius: 8px ;
+box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.747);
+padding :41px 41px ;
+background-color: rgb(18 52 255 / 70%) !important;
+
+
+
+}
+.formInput{
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 0, 0.671);
+    color: white;
+    background-color: transparent;
+}
+.formInput::placeholder{
+    color: white;
+}
+#sidebarbtn{
+    background-color: transparent;
+    border: none;
+}
